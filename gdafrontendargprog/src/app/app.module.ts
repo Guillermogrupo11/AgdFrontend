@@ -12,7 +12,6 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { LoginComponent } from './components/login/login.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
-import { SocialComponent } from './components/social/social.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -29,7 +28,6 @@ import { FormsModule } from '@angular/forms';
     ProyectoComponent,
     LoginComponent,
     LogoApComponent,
-    SocialComponent,
     ExperienciaComponent,
     EducacionComponent
   ],

@@ -16,6 +16,7 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FormsModule } from '@angular/forms';
+import {HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule,
     NgCircleProgressModule.forRoot({}),
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

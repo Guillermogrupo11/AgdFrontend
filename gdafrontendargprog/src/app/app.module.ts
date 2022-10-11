@@ -11,7 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { LoginComponent } from './components/login/login.component';
-import { LogoApComponent } from './components/logo-ap/logo-ap.component';
+import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -28,7 +28,7 @@ import {HttpClientModule } from '@angular/common/http';
     HysComponent,
     ProyectoComponent,
     LoginComponent,
-    LogoApComponent,
+    LogoAPComponent,
     ExperienciaComponent,
     EducacionComponent
   ],

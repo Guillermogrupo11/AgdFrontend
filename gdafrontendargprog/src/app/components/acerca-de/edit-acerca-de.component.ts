@@ -24,7 +24,17 @@ persona: persona = null;
       }
     )
   }
-  onUpdate(){}
+  onUpdate(): void{
+    const id = this.activatedRouter.snapshot.params['id'];
+    this.personaService.update(id, this.persona).subscribe(
+      data => {
+        this.router.navigate(['']);
+      }, err => {
+        alert("Error al modificar los datos de la persona");
+        this.router.navigate(['']);
+      }
+    )
+  }
   uploadImage($event: any){}
 
 }

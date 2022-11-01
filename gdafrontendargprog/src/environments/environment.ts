@@ -5,8 +5,8 @@
 export const environment = {
 
   production: false,
-  //URL: 'http://localhost:8080/'
-  URL: 'https://heroku-portfoliobackendgda.herokuapp.com/'
+  URL: 'http://localhost:8080/'
+  //URL: 'https://heroku-portfoliobackendgda.herokuapp.com/'
 };
 
 /*

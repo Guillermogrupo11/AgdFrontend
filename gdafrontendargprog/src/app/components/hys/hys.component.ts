@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Skill } from 'src/app/model/skill';
-
 import { SkillService } from 'src/app/service/skill.service';
-
 import { TokenService } from 'src/app/service/token.service';
 
 @Component({
